@@ -52,7 +52,6 @@ WARNING!!! WARNING!!!
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
 (function(window){
-  var firstLetter={};
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
 for (var i=0;i<names.length;i++) {
   var firstLetter=names[i].charAt(0);
